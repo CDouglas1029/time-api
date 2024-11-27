@@ -1,0 +1,22 @@
+{
+  "name": "time-api",
+  "version": "1.0.0",
+  "description": "A RESTful API to return the current UTC time and adjusted time based on timezone offset",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node src/app.js"
+  },
+  "keywords": [
+    "time-api"
+  ],
+  "author": "Christopher Lim",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^6.3.3"
+  }
+}
